@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddSingle">
+
+   <!-- <EditText
+        android:id="@+id/editext"
+        android:layout_width="match_parent"
+        android:hint="Enter the title here"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:onClick="Button"
+        android:id="@+id/btnSpeak"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Give a brief decription about the project"
+        android:layout_height="50dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:background="#fff"
+        android:numbersTextColor="#000"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:timePickerMode="spinner">
+    </TimePicker>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:text="Add the Reminders here"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:onClick="New"
+        android:text="Add a new Medicine"
+        android:textAlignment="center"
+        android:id="@+id/newk"
+        android:visibility="invisible"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+</LinearLayout>

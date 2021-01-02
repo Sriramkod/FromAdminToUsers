@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddReminder">
+
+    <Button
+        android:id="@+id/remindMe"
+        android:layout_width="276dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="583dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="Set Reminder"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+
+        android:id="@+id/num"
+        android:layout_width="322dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="298dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="  Number of times per day"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+
+        android:layout_width="322dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="389dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="Name of the medicine"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="543dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="Pill Reminder"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
