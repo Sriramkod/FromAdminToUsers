@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "279115361280",
+    "project_id": "notifyfromadmin",
+    "storage_bucket": "notifyfromadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279115361280:android:30add2b5872e8d0d08bce5",
+        "android_client_info": {
+          "package_name": "com.example.firedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279115361280-ujjski2c3ka37kgb8je6v6i3088mv8iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firedetection",
+            "certificate_hash": "7ef1d3f993362f8228cd11d9c456b3d832dec890"
+          }
+        },
+        {
+          "client_id": "279115361280-n3k2cs48butuqc1autrrn2k2e512df8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGY1j_IIfyZOhtpLwIKZM0dhUZmVF3vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279115361280-n3k2cs48butuqc1autrrn2k2e512df8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

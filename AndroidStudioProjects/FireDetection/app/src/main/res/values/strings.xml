@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fire Detection</string>
+    <string name="FCM_PREF">com.example.firedetection.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.firedetection.fcm_token</string>
+</resources>
